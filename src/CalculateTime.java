@@ -2,12 +2,15 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class CalculateTime {
+    //6667\//gg
+    //gg
 
 
 
         public static void main(String[] args) {
             int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
             int[] arrCopy = Arrays.copyOf(array, array.length);
+            int a = 10;
 
             // Serial calculation
             long startTimeSerial = System.currentTimeMillis();
