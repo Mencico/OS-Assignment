@@ -5,6 +5,8 @@ public class Threads {
             Thread t3 = new Thread(new ThreadRun(), "The Thread 3");
             Thread t4 = new Thread(new ThreadRun(), "The Thread 4");
 
+
+
             t1.start();
             t2.start();
             t3.start();
@@ -14,6 +16,7 @@ public class Threads {
 
             class ThreadRun implements Runnable {
                 public void run() {
+
                     System.out.println(Thread.currentThread().getName() + " is running perfectly!");
                 }
             }
