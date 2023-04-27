@@ -16,7 +16,7 @@ public class Threads {
     }
 }
 
-class ThreadFunction implements Runnable {
+class ThreadFunction implements Runnable { //Treadfuction
     public void run() {
         for (int i = 0; i < 10; i++) {
             System.out.println("I'm inside parallel threads. Loop: " + Integer.toString(i));
